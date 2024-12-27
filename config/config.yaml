@@ -1,0 +1,11 @@
+lidar_test:
+  ros__parameters:
+    lidar_topic: "/lidar_center/points_raw"
+    imu_topic: "/imu/data"
+    gps_topic: "/gps/fix"
+    gps_point_stamped_topic: "/anavs/solution/pos_llh"
+
+mapbox_loader:
+  ros__parameters:
+    gps_topic: "/anavs/solution/pos_llh"
+    mapbox_token: "pk.eyJ1Ijoic3VtaWV0Z29yZSIsImEiOiJjbHNhMmd3dXEwYjc0MmlycXppNW93bTBtIn0.EZBaTWp7XZBnkoOmbWxLJg"

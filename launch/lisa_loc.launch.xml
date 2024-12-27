@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="lisa_loc" exec="ground_extractor" name="ground_extractor" output="screen">
+        <param from="$(find-pkg-share lisa_loc)/config/config.yaml" />
+    </node>
+    <!-- <node pkg="lisa_loc" exec="ground_extractor" name="ground_extractor" output="screen">
+        <param from="$(find-pkg-share lisa_loc)/config/config.yaml" />
+    </node> -->
+    <!-- <node pkg="map_loader" exec="mapbox_loader" name="mapbox_loader" output="screen">
+        <param from="$(find-pkg-share lisa_loc)/config/config.yaml" />
+    </node> -->
+</launch>
